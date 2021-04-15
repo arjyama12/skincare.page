@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,500,700');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Raleway', sans-serif;
+}
+body{
+    background-color: #fadfd2;
+    overflow-y: hidden;
+}
+.container-fluid{
+    background-color: #f9f1f3;
+    box-shadow: 4px 4px 4px rgb(158, 157, 157);
+    height: 13.8vh;
+}
+ul{
+    position: absolute;
+    top: 7.8%;
+    left: 57%;
+}
+a{
+    color: rgb(73, 72, 72);
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 21px;
+    font-weight: 500;
+}
+a:hover{
+    color: rgb(3, 3, 43);
+    font-weight: 600;
+}
+.logo{
+    position: absolute;
+    top: 0%;
+    left: 5%;
+}
+.logo img{
+    width: 160px;
+    height: 160px;
+}
+.heading{
+    background-color: #fadfd2;
+}
+.heading h2{
+    position: absolute;
+    top: 45%;
+    left: 54%;
+    font-size: 33px;
+    word-spacing: 2px;
+    letter-spacing: 1.5px;
+    font-family:'Raleway', sans-serif;
+}
+.heading h3{
+    position: absolute;
+    top: 52%;
+    left: 54%;
+    font-size: 33px;
+    word-spacing: 2px;
+    margin-bottom: 17px;
+    letter-spacing: 1.5px;
+    font-family:'Raleway', sans-serif;
+}
+button{
+    position: absolute;
+    top: 60%;
+    left: 54.5%;
+}
+.btn{
+    width: 89px;
+    height: 37px;
+    border: 2.5px solid black;
+    background: transparent;
+    color: rgb(44, 44, 44);
+    font-size: 17px;
+    padding: 5px 10px;
+}
+.btn:hover{
+    background: linear-gradient(indigo, rgb(247, 78, 106));
+    border: none;
+    outline: none;
+    box-shadow: 2px solid wheat;
+    color: white;
+}
+.picture{
+    position: absolute;
+    top: 5.5%;
+    left: 15.5%;
+}
+.picture img{
+    width: 33rem;
+    height: 40rem;
+}
